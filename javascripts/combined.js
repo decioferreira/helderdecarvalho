@@ -335,7 +335,7 @@ $(function() {
 	// QTip Curriculum
 	$("a.curriculum").qtip({
 		content: {
-			url: "curriculum.php?lang="+language
+			url: language === "en" ? "curriculum" : "curriculo"
 		},
 		position: {
 			corner: {
@@ -360,7 +360,7 @@ $(function() {
 	// QTip Contacts
 	$("a.contacts").qtip({
 		content: {
-			url: "contacts.php?lang="+language
+			url: language === "en" ? "contacts" : "contactos"
 		},
 		position: {
 			corner: {
