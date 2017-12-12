@@ -1,0 +1,31 @@
+div.menu {
+	_position:absolute;
+	_top:expression(document.body.scrollTop+document.body.clientHeight-this.clientHeight);
+}
+
+div.image-arrow {
+	_position:absolute;
+	_top:expression(eval(document.body.scrollTop));
+	background-image:url(../images/fancybox/transparent.png);
+}
+
+div.qtip-image-arrow {
+	background:#505050;
+	display:inline;
+}
+
+div#loader {
+	text-align:center;
+}
+
+img.full_width {
+	height:auto;
+}
+
+img.full_height {
+	width:auto;
+}
+
+img {
+	-ms-interpolation-mode:bicubic;
+}
